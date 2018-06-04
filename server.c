@@ -33,7 +33,7 @@ extern int opterr;
 void log_info(char *msg) {
     static FILE *f_log = NULL;
     if (f_log == NULL) {
-        f_log = fopen("info.log", "w");
+        f_log = fopen("/home/box/info.log", "w");
         if (f_log == NULL) {
             perror("fopen serverl.log");
             exit(EXIT_FAILURE);
