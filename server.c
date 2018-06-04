@@ -6,7 +6,7 @@
 #include <sys/types.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
-#include <libev/ev.h>
+#include <ev.h>
 #include <time.h>
 #include <pthread.h>
 
